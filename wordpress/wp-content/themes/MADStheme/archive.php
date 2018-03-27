@@ -1,9 +1,8 @@
-
-            <!-- HEADER -->
             <?php get_header(); ?>
-            <!-- CONTENT -->
+            <!-- ouvrir header,php -->
             <div id="content">
                 <?php if(have_posts()) : ?>
+                
                 <?php while(have_posts()) : the_post(); ?>
                 <div class="post" id="post-<?php the_ID(); ?>">
                     <h2>
@@ -19,23 +18,14 @@
                         <?php edit_post_link('Editer', ' &#124; ', ''); ?>
                     </p>
                     <div class="post_content">
-                        <?php the_content(); ?>
+                        <?php the_excerpt(); ?>
                     </div>
                 </div>
                 <?php endwhile; ?>
-                <div class="navigation">
-                    <?php posts_nav_link(' - ','page suivante','page pr&eacute;c&eacute;dente'); ?>
-                </div>
-                <?php else : ?>
-                <h2>Oooopppsss...</h2>
-                <p>Désolé, mais vous cherchez quelque chose qui ne se trouve pas ici .</p>
-                <?php include (TEMPLATEPATH . "/searchform.php"); ?>
                 <?php endif; ?>
             </div>
         </div>
-        <!-- SIDEBAR -->
         <?php get_sidebar(); ?>
-        <!-- FOOTER -->
         <?php get_footer(); ?>
     </body>
 </html>

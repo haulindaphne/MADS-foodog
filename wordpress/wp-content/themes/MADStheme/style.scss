@@ -2,10 +2,9 @@
 
 @import url('reset.css');
 
+@import "partial/_all";
+
 body {
-    background-color: gray;
+    background-color: $background-color;
 }
 
-#header {
-    background-color: goldenrod;
-}
