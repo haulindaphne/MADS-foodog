@@ -17,5 +17,17 @@
 body {
   background-color: white;
   font-family: "Crimson Text", serif;
+  color: #636363;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 350%;
+  color: #424242;
+}
+
+a {
+  text-decoration: none;
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

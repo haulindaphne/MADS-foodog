@@ -22,12 +22,14 @@ $background-color: white;
 $background-color-hr :#F7F7F7;
 
 $font-color-bold: #424242;
-$font-color-light: #9F9F9F;
+$font-color-light: rgb(99, 99, 99);
 $font-color-categorie: #FD8F72;
 
 $footer-primary-back: #3D4045;
 $footer-secondary-back: #3D4045;
 $footer-font-color-h: #9F9F9F;
+
+$debug-color: red; // Ne jamais utiliser dans le version definitive
 
 
 
