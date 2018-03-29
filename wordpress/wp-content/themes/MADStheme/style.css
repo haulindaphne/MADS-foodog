@@ -1,6 +1,6 @@
 /* Theme Name: MADStheme
-Description: The first theme created by the MADS team. 
-Author: MADSteam  
+Description: The first theme created by the MADS team.
+Author: MADSteam
 Version: 0.1 */
 @import url("reset.css");
 @font-face {
@@ -141,4 +141,6 @@ a {
 #single-content .post .post-content .comments-template {
   padding-top: 30px;
 }
+
+
 /*# sourceMappingURL=style.css.map */
