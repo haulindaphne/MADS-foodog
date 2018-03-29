@@ -59,6 +59,15 @@ a {
   font-weight: bold;
 }
 
+.liensSociaux ul {
+  text-align: right;
+}
+
+.liensSociaux ul li {
+  display: inline;
+  padding: 1%;
+}
+
 #single-content {
   width: 40%;
   text-align: center;
