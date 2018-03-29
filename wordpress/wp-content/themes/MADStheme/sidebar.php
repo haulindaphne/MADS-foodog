@@ -3,14 +3,14 @@
 <div class="sidebar">
     <ul>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?> CONTENU DE LA SIDEBAR
-        
+
         <li id="search">
             <?php include(TEMPLATEPATH . '/searchform.php'); ?>
         </li>
-        <li id="calendar">
-            <h2>Calendrier</h2>
-            <?php get_calendar(); ?>
-        </li>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5fb8b39d00082fbf3d9904d9614f714ae15eec85
         <li>
             <h2>Categories</h2>
             <?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=0'); ?>
@@ -20,7 +20,7 @@
             <h2>Archives</h2>
             <ul>
                 <?php wp_get_archives('type=monthly'); ?>
-                <?php get_links_list(); ?> 
+                <?php get_links_list(); ?>
             </ul>
         </li>
         <li>
@@ -48,7 +48,7 @@
                 </li>
                 <?php wp_meta(); ?>
             </ul>
-        </li>   
+        </li>
         <li>
             <h2>Abonnez-vous au blog !</h2>
             <ul>
@@ -60,6 +60,6 @@
                 </li>
             </ul>
         </li>
-        <?php endif; ?> 
+        <?php endif; ?>
     </ul>
 </div>
