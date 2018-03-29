@@ -79,7 +79,7 @@ $oddcomment = 'alt';
 
 <?php if ('open' == $post->comment_status) : ?>
 
-<h3 id="respond">Laissez un commentaire</h3>
+<h4 id="respond">LEAVE A RESPONSE</h4>
 
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 <p>You must be

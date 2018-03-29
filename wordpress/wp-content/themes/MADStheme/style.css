@@ -30,6 +30,29 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+}
+
+h4 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+h5 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  font-weight: 900;
+}
+
 #header {
   background-color: white;
   margin: auto;
@@ -80,7 +103,7 @@ a {
   background-color: rgba(206, 206, 206, 0.2);
 }
 
-.header-page-404 {
+.page_header_404 {
   width: 40%;
   text-align: center;
   margin: auto;
@@ -94,6 +117,7 @@ a {
   margin: auto;
   background-color: white;
   padding-top: 20px;
+  color: black;
 }
 
 #single-content .category {
@@ -131,22 +155,23 @@ a {
   padding-bottom: 40px;
 }
 
-#single-content .post .post-content h4 {
-  width: 100%;
-  text-align: left;
-  margin: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-weight: 900;
-}
-
-#single-content .post .post-content h3 {
-  width: 100%;
-  text-align: left;
-  margin: auto;
-}
-
 #single-content .post .post-content .comments-template {
   padding-top: 30px;
+}
+
+#footer #footerInfo {
+  background-color: #3D4045;
+}
+
+#footer #footerEnd {
+  background-color: #333639;
+}
+
+#footer #footerEnd ul {
+  text-align: right;
+}
+
+#footer #footerEnd ul li {
+  display: inline;
 }
 /*# sourceMappingURL=style.css.map */
