@@ -34,9 +34,5 @@
                         <?php bloginfo('name'); ?>
                     </a>
                 </h1>
-                <?php wp_nav_menu('Categorie');?>
-                
-                <p>
-                    <?php //bloginfo('description'); ?>
-                </p>
+                <?php wp_nav_menu('Categorie');?>    
             </div>
