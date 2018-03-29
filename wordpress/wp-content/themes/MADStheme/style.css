@@ -158,4 +158,20 @@ h5 {
 #single-content .post .post-content .comments-template {
   padding-top: 30px;
 }
+
+#footer #footerInfo {
+  background-color: #3D4045;
+}
+
+#footer #footerEnd {
+  background-color: #333639;
+}
+
+#footer #footerEnd ul {
+  text-align: right;
+}
+
+#footer #footerEnd ul li {
+  display: inline;
+}
 /*# sourceMappingURL=style.css.map */
