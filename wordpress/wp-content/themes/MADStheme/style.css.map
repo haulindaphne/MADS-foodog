@@ -6,7 +6,8 @@
         "partial/_all.scss",
         "partial/_variable.scss",
         "partial/_header.scss",
-        "partial/_structure.scss"
+        "partial/_structure.scss",
+        "partial/_404.scss"
     ],
     "names": [],
     "file": "style.css"

@@ -7,10 +7,6 @@
         <li id="search">
             <?php include(TEMPLATEPATH . '/searchform.php'); ?>
         </li>
-        <li id="calendar">
-            <h2>Calendrier</h2>
-            <?php get_calendar(); ?>
-        </li>
         <li>
             <h2>Categories</h2>
             <?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=0'); ?>
