@@ -1,13 +1,21 @@
-            <?php get_header(); ?>
+              <?php get_header(); ?>
             <!-- ouvrir header,php -->
             <div id="content">
                 <?php if(have_posts()) : ?>
-                
+
+
                 <?php while(have_posts()) : the_post(); ?>
                 <div class="post" id="post-<?php the_ID(); ?>">
                     <h2>
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                          <?php
+                          add_theme_support( 'post-thumbnails', array( 'post' ) ); 
+                          // Ajouter les images à la une sur les articles uniquement
+                           the_post_thumbnail();
+                            // affiche la miniature par défaut
+                            // ?>
                             <?php the_title(); ?>
+
                         </a>
                     </h2>
                     <p class="postmetadata">
@@ -25,7 +33,7 @@
                 <?php endif; ?>
             </div>
         </div>
-        <?php get_sidebar(); ?>
+        <?php // get_sidebar(); // ?>
         <?php get_footer(); ?>
     </body>
 </html>
