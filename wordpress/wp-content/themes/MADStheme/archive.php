@@ -32,11 +32,7 @@
                 <?php endif; ?>
             </div>
         </div>
-<<<<<<< HEAD
         <?php //get_sidebar(); ?> 
-=======
-        <?php // get_sidebar(); // ?>
->>>>>>> 5fb8b39d00082fbf3d9904d9614f714ae15eec85
         <?php get_footer(); ?>
     </body>
 </html>
