@@ -10,6 +10,23 @@
   src: url("fonts/OpenSans-Regular.ttf");
 }
 
+body {
+  background-color: white;
+  font-family: "Crimson Text", serif;
+  color: #636363;
+  font-size: 18px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 350%;
+  color: #424242;
+}
+
+a {
+  text-decoration: none;
+}
+
 #header {
   background-color: white;
   margin: auto;
@@ -42,25 +59,13 @@
   font-weight: bold;
 }
 
-body {
-  background-color: white;
-  font-family: "Crimson Text", serif;
-  color: #636363;
-  font-size: 18px;
-  margin: auto;
+.liensSociaux ul {
+  text-align: right;
 }
 
-h1 {
-  font-size: 350%;
-  color: #424242;
-}
-
-a {
-  text-decoration: none;
-}
-
-#header {
-  background-color: goldenrod;
+.liensSociaux ul li {
+  display: inline;
+  padding: 1%;
 }
 
 #single-content {
