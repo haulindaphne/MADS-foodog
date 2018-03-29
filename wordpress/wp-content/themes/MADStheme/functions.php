@@ -47,4 +47,19 @@ if( isset( $_POST[ 'meta-checkbox' ] ) ) {
  
 }
 add_action( 'save_post', 'sm_meta_save' );
+
+/*Redirection page 404*/
+function page404_redirection()
+{
+ global $mapage;
+ if(is_404())
+ {
+ wp_redirect(home_url("erreur-404/")); //remplacez "erreur-404" par le nom d'identifiant de votre page
+ exit;
+ }
+}
+ 
+add_action('wp', 'page404_redirection',1);
+
+
 ?>
