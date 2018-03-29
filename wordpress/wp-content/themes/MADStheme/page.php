@@ -4,7 +4,7 @@
 
             <div id="content">
                 <?php if(have_posts()) : ?>
-                
+
                 <?php while(have_posts()) : the_post(); ?>
                 <div class="post" id="post-<?php the_ID(); ?>">
                     <h2>
@@ -14,6 +14,7 @@
                     </h2>
                     <div class="post_content">
                         <?php the_content(); ?>
+
                     </div>
                 </div>
                 <?php endwhile; ?>
