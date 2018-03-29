@@ -29,6 +29,14 @@
     <body>
         <div id="page">
             <div id="header">
+                <div class="liensSociaux">
+                    <ul>
+                        <li><a href="https://fr-fr.facebook.com/"><img src="http://localhost/MADS-foodog/wordpress/wp-admin/images/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://twitter.com/?lang=fr"><img src="http://localhost/MADS-foodog/wordpress/wp-admin/images/twitter.png" alt ="twitter"></a></li>
+                        <li><a href="https://www.instagram.com/?hl=fr"><img src="http://localhost/MADS-foodog/wordpress/wp-admin/images/insta.png" alt="instagram"></a></li>
+                        <li><a href="search.php"><img src="http://localhost/MADS-foodog/wordpress/wp-admin/images/search.png" alt ="search"></a></li>
+                    </ul>
+                </div>  
                 <h1>
                     <a href="<?php bloginfo('url'); ?>">
                         <?php bloginfo('name'); ?>
