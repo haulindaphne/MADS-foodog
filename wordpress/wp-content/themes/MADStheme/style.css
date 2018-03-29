@@ -68,6 +68,11 @@ a {
   padding: 1%;
 }
 
+.page-title {
+  font-size: 30px;
+  text-align: center;
+}
+
 #single-content {
   width: 40%;
   text-align: center;
