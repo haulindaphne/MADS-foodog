@@ -1,4 +1,7 @@
-/* Theme Name: MADStheme Theme URI: http://www.localhost.com/ Description: The first theme created by the MADS team. Version: 0.1 Author: Leers Mathieu   Creation Theme by MADS team || http://www.leersmathieu.com   */
+/* Theme Name: MADStheme
+Description: The first theme created by the MADS team.
+Author: MADSteam
+Version: 0.1 */
 @import url("reset.css");
 @font-face {
   font-family: "Crimson Text";
@@ -36,7 +39,7 @@ a {
 #header h1 {
   font-weight: 500;
   text-align: center;
-  padding: 1%;
+  padding-bottom: 2%;
 }
 
 #header h1 a {
@@ -61,11 +64,20 @@ a {
 
 .liensSociaux ul {
   text-align: right;
+  padding-right: 2%;
+  padding-top: 2%;
 }
 
 .liensSociaux ul li {
   display: inline;
-  padding: 1%;
+  padding: 5px;
+}
+
+#barre {
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  background-color: rgba(206, 206, 206, 0.2);
 }
 
 #single-content {
@@ -115,8 +127,8 @@ a {
   width: 100%;
   text-align: left;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-weight: 900;
 }
 

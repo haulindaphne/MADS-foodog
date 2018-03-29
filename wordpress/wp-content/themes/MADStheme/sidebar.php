@@ -7,7 +7,6 @@
         <!-- <li id="search">
             <//?php include(TEMPLATEPATH . '/searchform.php'); ?>
         </li>
-
         <li>
             <h2>Categories</h2>
             <//?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=0'); ?>
