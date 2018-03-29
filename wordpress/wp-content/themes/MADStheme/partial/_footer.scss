@@ -1,0 +1,17 @@
+#footer {
+    #footerInfo {
+        background-color: $footer-primary-back;
+    }
+    #footerEnd {
+        background-color: $footer-secondary-back;
+        ul {
+            text-align: right;
+            li {
+                display:inline;
+                a{
+
+                }
+            }
+        }
+    }
+}
