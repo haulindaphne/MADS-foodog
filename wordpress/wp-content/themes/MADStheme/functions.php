@@ -48,22 +48,7 @@ if( isset( $_POST[ 'meta-checkbox' ] ) ) {
 }
 add_action( 'save_post', 'sm_meta_save' );
 
-<<<<<<< HEAD
-/*Redirection page 404
-function page404_redirection()
-{
- global $mapage;
- if(is_404())
- {
- wp_redirect(home_url("404.php")); //remplacez "erreur-404" par le nom d'identifiant de votre page
- exit;
- }
-}
- 
-add_action('wp', 'page404_redirection',1);*/
-=======
 add_theme_support( 'post-thumbnails' );
->>>>>>> 7fd15e47760a4564ef2158182bb4bacbccda75fe
 
 
 ?>
