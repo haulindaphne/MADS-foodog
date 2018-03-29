@@ -8,7 +8,8 @@
         "partial/_structure.scss",
         "partial/_header.scss",
         "partial/_404.scss",
-        "partial/_single.scss"
+        "partial/_single.scss",
+        "partial/_sidebar.scss"
     ],
     "names": [],
     "file": "style.css"

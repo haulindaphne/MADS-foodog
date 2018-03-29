@@ -141,26 +141,4 @@ a {
 #single-content .post .post-content .comments-template {
   padding-top: 30px;
 }
-
-/* SIDEBAR */
-
-.liensSubscribe {
-  box-sizing: border-box;
-  width: 19.5%;
-}
-
-.fcbk, .insta {
-  background-color: #8e91cc;
-  color: white;
-  padding: 5px;
-  font-size: 12px;
-}
-
-.twitter {
-  background-color: #6acdf4;
-  color: white;
-  padding: 5px;
-  font-size: 12px;
-}
-
 /*# sourceMappingURL=style.css.map */
