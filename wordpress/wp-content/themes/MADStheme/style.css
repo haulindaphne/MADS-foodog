@@ -61,11 +61,19 @@ a {
 
 .liensSociaux ul {
   text-align: right;
+  padding: 1%;
 }
 
 .liensSociaux ul li {
   display: inline;
-  padding: 1%;
+  padding: 5px;
+}
+
+#barre {
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  background-color: #9F9F9F;
 }
 
 #single-content {
