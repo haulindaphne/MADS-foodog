@@ -47,6 +47,7 @@ body {
   font-family: "Crimson Text", serif;
   color: #636363;
   font-size: 18px;
+  margin: auto;
 }
 
 h1 {
@@ -56,6 +57,71 @@ h1 {
 
 a {
   text-decoration: none;
-  color: red;
+}
+
+#header {
+  background-color: goldenrod;
+}
+
+#single-content {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  padding-top: 20px;
+}
+
+#single-content .category {
+  padding-bottom: 30px;
+}
+
+#single-content .category a {
+  color: #ec6743;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#single-content .post .article-title {
+  padding-bottom: 30px;
+}
+
+#single-content .post .article-title a {
+  font-size: 150%;
+  color: #424242;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#single-content .post .post-content p {
+  width: 100%;
+  text-align: justify;
+  margin: auto;
+}
+
+#single-content .post .post-content p img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+#single-content .post .post-content h4 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 900;
+}
+
+#single-content .post .post-content h3 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+}
+
+#single-content .post .post-content .comments-template {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
