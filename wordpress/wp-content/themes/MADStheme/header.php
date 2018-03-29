@@ -44,3 +44,5 @@
                 </h1>
                 <?php wp_nav_menu('Categorie');?>    
             </div>
+            <div id="barre">
+            </div>

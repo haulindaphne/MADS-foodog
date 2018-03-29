@@ -44,8 +44,8 @@ $debug-color: red; // Ne jamais utiliser dans le version definitive
      // POSSIBILITE DE REMPLACER LES CLASS \\
 
 @mixin h-center($width,$align){
-    width: $width;
-    text-align: $align;
+    width: $width; // 40% = taille max article
+    text-align: $align; // Center, left,right,justify...
     margin: auto;
 }
 
