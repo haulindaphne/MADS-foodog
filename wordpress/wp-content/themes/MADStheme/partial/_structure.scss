@@ -15,3 +15,21 @@ a {
     text-decoration: none;
     // color: $debug-color;
 }
+
+h3 {
+    @include h-center (100%, left);
+}
+
+h4 {
+    @include h-center (100%, left);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: $font-secondary;
+    font-weight: $font-weight-bold;
+}
+
+h5 {
+    @include h-center (100%, left);
+    font-weight: $font-weight-bold;
+}
+

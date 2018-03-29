@@ -30,6 +30,29 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+}
+
+h4 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+h5 {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  font-weight: 900;
+}
+
 #header {
   background-color: white;
   margin: auto;
@@ -86,6 +109,7 @@ a {
   margin: auto;
   background-color: white;
   padding-top: 20px;
+  color: black;
 }
 
 #single-content .category {
@@ -121,21 +145,6 @@ a {
   width: 100%;
   height: auto;
   padding-bottom: 40px;
-}
-
-#single-content .post .post-content h4 {
-  width: 100%;
-  text-align: left;
-  margin: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-weight: 900;
-}
-
-#single-content .post .post-content h3 {
-  width: 100%;
-  text-align: left;
-  margin: auto;
 }
 
 #single-content .post .post-content .comments-template {
