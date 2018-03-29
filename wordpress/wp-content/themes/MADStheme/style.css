@@ -103,6 +103,14 @@ h5 {
   background-color: rgba(206, 206, 206, 0.2);
 }
 
+.page_header_404 {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 #single-content {
   width: 40%;
   text-align: center;
