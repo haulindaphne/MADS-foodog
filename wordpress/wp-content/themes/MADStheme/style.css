@@ -80,9 +80,12 @@ a {
   background-color: rgba(206, 206, 206, 0.2);
 }
 
-.page-title {
-  font-size: 30px;
+.404_page_header {
+  width: 40%;
   text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #single-content {
