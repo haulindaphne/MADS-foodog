@@ -3,32 +3,26 @@
  * The template for displaying 404 pages (Not Found)
  *
  * @package WordPress
- * //@subpackage Twenty_Thirteen
+ * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
 
 get_header(); ?>
 
-    <div id="primary" class="content-area">
-        <div id="content" class="site-content" role="main">
+    <div class="404_page_header">
+        <img id="dog" src="http://localhost/MADS-foodog/wordpress/wp-admin/images/ooups.jpg" alt="chien dessin au crayon">
+        <p class="page-title"><?php _e( 'An error occured unexpectedly !', 'MADS-foodog' ); ?></p>
 
-            <header class="page-header">
-                <h1 class="page-title"><?php _e( 'Not Found', 'MADS-foodog' ); ?></h1>
-            </header>
+    <div class="page-content">
+        <p><?php _e( 'It looks like nothing was found at this location.'); ?></p>
+        <p><?php _e('Please try a search?', 'MADS-foodog' ); ?></p>
 
-            <div class="page-wrapper">
-                <div class="page-content">
-                    <h2><?php _e( 'This is somewhat embarrassing, isn’t it?', 'MADS-foodog' ); ?></h2>
-                    <p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'MADS-foodog' ); ?></p>
+        <?php get_search_form(); ?>
+    </div><!-- .page-content -->
+</div> <!-- .404-page-header -->
 
-                    <?php get_search_form(); ?>
-                </div><!-- .page-content -->
-            </div><!-- .page-wrapper -->
 
-        </div><!-- #content -->
-    </div><!-- #primary -->
 
-<?php get_footer(); ?>
 
 
 
