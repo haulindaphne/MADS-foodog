@@ -104,7 +104,7 @@ h5 {
 }
 
 .page_header_404 {
-  width: 60%;
+  width: 80%;
   text-align: center;
   margin: auto;
   padding-top: 10px;
@@ -120,6 +120,19 @@ h5 {
 .page_header_404 .page_content_404 p {
   font-size: 20px;
   padding-bottom: 20px;
+}
+
+.page_header_404 #post_404 {
+  padding-top: 10px;
+}
+
+.page_header_404 #post_404 p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.page_header_404 #post_404 ul li {
+  font-size: 14px;
 }
 
 #single-content {

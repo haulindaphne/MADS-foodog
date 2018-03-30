@@ -1,5 +1,5 @@
 .page_header_404   {
-    @include h-center(60%,center);
+    @include h-center(80%,center);
     padding-top: 10px;
     padding-bottom: 10px;
     .page_title_404 {
@@ -15,4 +15,17 @@
             padding-bottom: 20px;
         }
     }
+   #post_404 {
+       padding-top: 10px;
+       p {
+           font-size: 20px;
+           padding-top: 5px;
+
+       }
+       ul{
+           li {
+               font-size: 14px;
+           }
+       }
+   }
 }
