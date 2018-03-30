@@ -40,6 +40,7 @@
                     </ul>
                 </div>  
                 <h1>
+                <a href="<?php bloginfo('url'); ?>">
                 <?php bloginfo('name'); ?>
                     
                 </h1>
