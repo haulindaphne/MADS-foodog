@@ -106,17 +106,36 @@ h5 {
   background-color: rgba(206, 206, 206, 0.2);
 }
 
-.header-page-404 {
-  width: 40%;
+.page_header_404 {
+  width: 80%;
   text-align: center;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: auto;
 }
 
-.header-page-404 p {
-  font-size: 50px;
+.page_header_404 .page_title_404 p {
+  font-size: 36px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.page_header_404 .page_content_404 p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.page_header_404 #post_404 {
+  padding-top: 10px;
+}
+
+.page_header_404 #post_404 p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.page_header_404 #post_404 ul li {
+  font-size: 14px;
 }
 
 #single-content {
@@ -181,5 +200,22 @@ h5 {
 
 #footer #footerEnd ul li {
   display: inline;
+}
+
+#search_form_submit {
+  color: #9F9F9F;
+  background-color: #333639;
+  width: 64px;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 5px;
+}
+
+#search_form_text {
+  background-color: white;
+  width: 350px;
+  height: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 6px -6px #3D4045;
 }
 /*# sourceMappingURL=style.css.map */
