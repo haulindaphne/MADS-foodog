@@ -50,5 +50,9 @@ add_action( 'save_post', 'sm_meta_save' );
 
 add_theme_support( 'post-thumbnails' );
 
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+  }
+
 
 ?>

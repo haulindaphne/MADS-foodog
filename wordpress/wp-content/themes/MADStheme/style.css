@@ -103,12 +103,17 @@ h5 {
   background-color: rgba(206, 206, 206, 0.2);
 }
 
-.page_header_404 {
+.header-page-404 {
   width: 40%;
   text-align: center;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: auto;
+}
+
+.header-page-404 p {
+  font-size: 50px;
 }
 
 #single-content {
