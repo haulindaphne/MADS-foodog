@@ -2,7 +2,7 @@ body {
     background-color: $background-color;
     font-family: $font-primary;
     color: $font-color-light;
-    font-size: 18px;
+    font-size: 20px;
     margin: auto;
 }
 
@@ -22,14 +22,17 @@ h3 {
 
 h4 {
     @include h-center (100%, left);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-family: $font-secondary;
     font-weight: $font-weight-bold;
+    font-size: 120%;
 }
 
 h5 {
     @include h-center (100%, left);
     font-weight: $font-weight-bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
