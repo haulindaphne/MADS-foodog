@@ -9,17 +9,22 @@
 
 get_header(); ?>
 
-    <div class="header-page-404">
+    <div class="page_header_404 ">
+        
         <img id="dog" src="http://localhost/MADS-foodog/wordpress/wp-admin/images/ooups.jpg" alt="chien dessin au crayon">
-        <p class="page-title"><?php _e( 'An error occured unexpectedly !', 'MADS-foodog' ); ?></p>
+        
+        <div class="page_title_404">
+            <p><?php _e( 'An error occured unexpectedly !', 'MADS-foodog' ); ?></p>
+        </div>
 
-            <div class="page-content">
-                <p><?php _e( 'It looks like nothing was found at this location.'); ?></p>
-                <p><?php _e('Please try a search?', 'MADS-foodog' ); ?></p>
+        <div class="page_content_404">
+            <p><?php _e( 'It looks like nothing was found at this location.'); ?></p>
+            <p><?php _e('Try to find something else?', 'MADS-foodog' ); ?></p>
+        </div><!-- .page_content_404 -->
 
-                <?php get_search_form(); ?>
-            </div><!-- .page-content -->
-    </div> <!-- .header-page-404 -->
+        <?php get_search_form(); ?>
+        
+    </div> <!-- .page_header_404  -->
 
 
 

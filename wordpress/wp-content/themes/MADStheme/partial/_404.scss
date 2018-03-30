@@ -1,12 +1,18 @@
-.header-page-404 {
-    @include h-center(40%,center);
+.page_header_404   {
+    @include h-center(60%,center);
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: auto;
-    #dog {
-
+    .page_title_404 {
+        p{
+            font-size: 36px;
+            margin: auto;
+            padding-bottom: 20px;
+        }
     }
-    p {
-        font-size: 50px;
+    .page_content_404 {
+        p {
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
     }
 }
