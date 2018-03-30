@@ -29,6 +29,8 @@
     <body>
         <div id="page">
             <div id="header">
+                <a href="#" class="header__icon"></a>
+                <!-- icon visible seulement quand ecran - de 480px -->
                 <div class="liensSociaux">
                     <ul>
                         <li><a href="https://fr-fr.facebook.com/"><img src="http://localhost/MADS-foodog/wordpress/wp-admin/images/facebook.png" alt="facebook"></a></li>
@@ -38,11 +40,11 @@
                     </ul>
                 </div>  
                 <h1>
-                    <a href="<?php bloginfo('url'); ?>">
-                        <?php bloginfo('name'); ?>
-                    </a>
+                <?php bloginfo('name'); ?>
+                    
                 </h1>
-                <?php wp_nav_menu('Categorie');?> 
+                <?php wp_nav_menu('Categorie'); ?>
+                    
             </div>
             <div id="barre">
             </div>
