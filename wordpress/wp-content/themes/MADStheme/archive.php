@@ -1,6 +1,3 @@
-
-<!-- PAGE INUTILISEE -->
-
             <?php get_header(); ?>
             <!-- ouvrir header,php -->
             <div id="content">
