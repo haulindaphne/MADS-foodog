@@ -23,8 +23,7 @@
                             'limit' => 3,
                             'stats_views' => 0);
                         wpp_get_mostpopular($args);
-                  }?>
-            
+            }?>
         </div>
         <div id="footerInst">
             <h2 class="footerTitle">INSTAGRAM</h2>
