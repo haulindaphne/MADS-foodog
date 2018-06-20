@@ -13,7 +13,17 @@ Reproduction du site "<strong>FOODOG</strong> sous Wordpress.
   <li>Mathieu Leers https://github.com/leersmathieu</li>
  </ul>
   
+  # Difficultés rencontrées:
   
+  <ul>
+    <li>Coder à plusieurs sur un projet commun</li>Done
+    <li>Utilisation d'une base de données commune</li>Done
+    <li>Intégration du concept Wordpress</li>Done
+  </ul>
+  
+  # Screenshot du projet:
+  <div style="display:inline;">
+   <img src ='https://github.com/haulindaphne/MADS-foodog/blob/master/foodog.png' width="33%" height="200" >
 
 
 
