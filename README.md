@@ -1,4 +1,17 @@
 # MADS-foodog
-Colloboration for our first wordpress project
+First wordpress project
 
-http://leersmathieu.com/becode/MADS-foodog/wordpress/
+# Contributors:
+<ul>
+  <li>Sébastien da Cruz-Mathias</li>
+  <li>Arnaud Duchemin</li>
+  <li>Daphné Haulin</li>
+  <li>Mathieu Leers</li>
+ </ul>
+  
+  
+
+
+
+
+lien: http://leersmathieu.com/becode/MADS-foodog/wordpress/
