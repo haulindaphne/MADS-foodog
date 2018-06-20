@@ -3,10 +3,10 @@ First wordpress project
 
 # Contributors:
 <ul>
-  <li>Sébastien da Cruz-Mathias</li>
-  <li>Arnaud Duchemin</li>
+  <li>Sébastien da Cruz-Mathias https://github.com/DacruzMSebastien</li>
+  <li>Arnaud Duchemin https://github.com/Cervant3s</li>
   <li>Daphné Haulin</li>
-  <li>Mathieu Leers</li>
+  <li>Mathieu Leers https://github.com/leersmathieu</li>
  </ul>
   
   
