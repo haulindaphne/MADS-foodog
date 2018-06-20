@@ -1,6 +1,10 @@
 # MADS-foodog
 First wordpress project
 
+Exercice lors de la formation Becode @Charleroi (Jan 2018 - Août 2018).
+
+Reproduction du site "<strong>FOODOG</strong> sous Wordpress.
+
 # Contributors:
 <ul>
   <li>Sébastien da Cruz-Mathias https://github.com/DacruzMSebastien</li>
