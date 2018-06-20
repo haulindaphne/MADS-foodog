@@ -16,9 +16,9 @@ Reproduction du site "<strong>FOODOG</strong> sous Wordpress.
   # Difficultés rencontrées:
   
   <ul>
-    <li>Coder à plusieurs sur un projet commun</li>Done
-    <li>Utilisation d'une base de données commune</li>Done
-    <li>Intégration du concept Wordpress</li>Done
+    <li>Coder à plusieurs sur un projet commun - Done</li>
+    <li>Utilisation d'une base de données commune - Done</li>
+    <li>Intégration du concept Wordpress - Done</li>
   </ul>
   
   # Screenshot du projet:
